@@ -1,18 +1,20 @@
 # NoteTaker
 
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
+This application keeps track of notes written by the user.
 
-WHEN I enter a new note title and the note’s text
-THEN a Save icon appears in the navigation at the top of the page
-WHEN I click on the Save icon
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
+## Description
 
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column
+I created a back end with express.js to host the NoteTaker application. I used routes to connect the index files to the server, as well as 'get' and 'post' requests to list saved notes and create new notes respectively. I created a function that saves notes entered by the user by adding them to the .json file with their own unique id using 'nanoid' from NPM. 
 
-WHEN I click on the Write icon in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+Delete note functionality coming soon!
+
+## Screenshots 
+
+Screenshots are located in the screenshots folder.
+
+## Link to deployed application
+
+
+### Collaboration
+
+Made in collaboration with Nate Derenne.
